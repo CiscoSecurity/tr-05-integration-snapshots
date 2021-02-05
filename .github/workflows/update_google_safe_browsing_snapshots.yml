@@ -1,6 +1,7 @@
 name: Update Google_Safe_Browsing snapshots
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "40 13 * * THU"
 
