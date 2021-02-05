@@ -1,0 +1,16 @@
+{
+  "description": "filepath for graph",
+  "schema_version": "1.0.22",
+  "type": "investigation",
+  "search-txt": "file_path:\"/path/users/3/update\"",
+  "source": "Test_company Company_test",
+  "actions": "[{\"created-perf\":591444999.9982026,\"updated-perf\":591444999.9982026,\"type\":\"collect\",\"created\":\"2020-12-02T09:59:20.262Z\",\"state\":\"ok\",\"arg\":\"file_path:\\\"/path/users/3/update\\\"\",\"result\":[{\"value\":\"/path/users/3/update\",\"type\":\"file_path\"}],\"id\":\"collect-f74910fa\",\"uuid\":\"f0ab5e15-24fa-4774-ba74-f97c823d84d4\"},{\"created-perf\":4874859999.981709,\"updated-perf\":4874859999.981709,\"type\":\"investigate\",\"created\":\"2020-12-02T09:59:24.546Z\",\"state\":\"ok\",\"arg\":{\"type\":\"file_path\",\"value\":\"/path/users/3/update\"},\"result\":{\"data\":[{\"module\":\"Microsoft Graph Security API\",\"module_instance_id\":\"85f1100e-0365-4cca-b03a-43dcd37085a0\",\"module_type_id\":\"33fa22a5-3369-46eb-aa6b-3386984aaf0b\",\"data\":{\"sightings\":{\"count\":1,\"docs\":[{\"description\":\"SQL Injection, Cross-Site Scripting. We observed the following suspicious value enter the application through the HTTP Request Parameter \\\"userid\\\":POST /WebGoat/SqlInjection/attack5b HTTP/1.0 userid=4+OR+1%3D1 This value was again observed altering the meaning of the SQL query executed within org.hsqldb.jdbc.JDBCStatement.executeQuery(Unknown Source):SELECT * FROM user_data WHERE userid = 4 OR 1=1.\",\"schema_version\":\"1.0.12\",\"relations\":[],\"observables\":[{\"value\":\"/path/users/3/update\",\"type\":\"file_path\"}],\"type\":\"sighting\",\"source\":\"Microsoft Graph Security\",\"external_ids\":[\"257F2933-A145-4061-9464-2D964A91EB91\"],\"targets\":[],\"title\":\"Active attack EXPLOITED in QA\",\"external_references\":[],\"id\":\"transient:sighting-144eebd8-d09e-4061-9a19-0c8322730abb\",\"count\":1,\"severity\":\"High\",\"timestamp\":\"2020-11-24T08:13:00.000Z\",\"confidence\":\"None\",\"observed_time\":{\"start_time\":\"2020-11-24T08:13:00.000Z\",\"end_time\":\"2020-11-24T08:13:00.000Z\"},\"sensor\":\"endpoint\"}]}}}]},\"id\":\"investigate-fec5163d\",\"uuid\":\"37d00717-2f37-4353-a109-03c9346db3e0\"}]",
+  "short_description": "Snapshot @ 20201202 10:09:35",
+  "id": "https://private.intel.amp.cisco.com:443/ctia/investigation/investigation-861232a5-4a50-46fb-ac84-476fd10d976d",
+  "tlp": "amber",
+  "groups": [
+    "60c63e6e-a341-4990-8da8-9d432e8be7c0"
+  ],
+  "timestamp": "2020-12-02T10:09:49.986Z",
+  "owner": "d67071e5-7738-49a4-b315-4117b30a086b"
+}
