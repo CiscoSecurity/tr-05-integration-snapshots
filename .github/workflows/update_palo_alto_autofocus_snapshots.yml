@@ -1,0 +1,33 @@
+name: Update Palo_Alto_Autofocus snapshots
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 40 14 * * FRI
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+
+      - name: Update snapshots
+        run: python3 snapshot_updater.py --integration Palo_Alto_Autofocus --expiration_time 7
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Update Palo_Alto_Autofocus snapshots" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
