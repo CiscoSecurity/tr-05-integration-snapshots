@@ -1,0 +1,769 @@
+{
+  "searchHistory": {
+    "selectedObservables": [
+      {
+        "uuid": "26cd7f9d-0a17-45e7-a154-35d974a38fbc",
+        "observable": {
+          "key": "05d64427-9939-4fac-b142-358fdd5ccab0",
+          "value": "https://portal.sbn.co.th/rss.php",
+          "indicators": [
+            {
+              "tags": [
+                "tlp:white"
+              ],
+              "valid_time": {
+                "start_time": "2015-07-01T00:00:00.000Z",
+                "end_time": "2015-07-01T00:00:00.000Z"
+              },
+              "producer": "CUDESO",
+              "schema_version": "1.1.5",
+              "type": "indicator",
+              "source": "MISP",
+              "short_description": "Category: Network activity",
+              "title": "Duke Cloud Linux - F-Secure",
+              "module": "MISP",
+              "module-type": null,
+              "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+              "id": "transient:indicator-56ccde59-af1c-437c-a9f5-51269062e56a",
+              "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+              "ctr_uuid": "dc647036-8df5-4884-97df-14df34b8bdfd",
+              "timestamp": "2016-02-23T22:34:35.000Z",
+              "confidence": "High",
+              "ctr_hide": false
+            }
+          ],
+          "type": "url",
+          "state": "investigated",
+          "targets": [],
+          "disposition": 2,
+          "verdicts": [
+            {
+              "valid_time": {
+                "start_time": "2021-05-12T09:26:26.000Z",
+                "end_time": "2021-05-19T09:26:26.000Z"
+              },
+              "observable": {
+                "value": "https://portal.sbn.co.th/rss.php",
+                "type": "url"
+              },
+              "type": "verdict",
+              "disposition": 4,
+              "module": "MISP",
+              "module-type": null,
+              "disposition_name": "Common",
+              "id": "verdict:MISP:165c2f02",
+              "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+              "ctr_uuid": "7e955314-075f-4187-aff1-1ab95202bc7e",
+              "judgement_id": "transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f",
+              "ctr_hide": false
+            },
+            {
+              "valid_time": {
+                "start_time": "2021-05-12T09:26:26.175Z",
+                "end_time": "2021-06-11T09:26:26.175Z"
+              },
+              "observable": {
+                "value": "https://portal.sbn.co.th/rss.php",
+                "type": "url"
+              },
+              "type": "verdict",
+              "disposition": 2,
+              "module": "Talos Intelligence",
+              "module-type": null,
+              "disposition_name": "Malicious",
+              "id": "verdict:Talos Intelligence:165c2f02",
+              "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+              "ctr_uuid": "ae32b88a-8a0d-40eb-b418-ddba37347289",
+              "judgement_id": "transient:b40c4502-c2f1-4c74-a858-70b2e92a6f10",
+              "ctr_hide": true
+            }
+          ],
+          "notifications": [],
+          "disposition_name": "Malicious",
+          "obsListSortOrder": 1,
+          "listOrder": 0,
+          "label": "https://portal.sbn.co.th/rss.php",
+          "id": "165c2f02",
+          "judgements": [
+            {
+              "valid_time": {
+                "start_time": "2021-05-12T09:26:26.000Z",
+                "end_time": "2021-05-19T09:26:26.000Z"
+              },
+              "schema_version": "1.1.5",
+              "observable": {
+                "value": "https://portal.sbn.co.th/rss.php",
+                "type": "url"
+              },
+              "type": "judgement",
+              "source": "MISP",
+              "disposition": 4,
+              "module": "MISP",
+              "module-type": null,
+              "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+              "disposition_name": "Common",
+              "priority": 85,
+              "id": "transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f",
+              "severity": "Medium",
+              "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+              "ctr_uuid": "3abdde37-0286-4930-8885-24451a93187e",
+              "confidence": "Medium",
+              "ctr_dispositionOrder": 3,
+              "ctr_hide": false
+            },
+            {
+              "valid_time": {
+                "start_time": "2021-05-12T09:26:26.175Z",
+                "end_time": "2021-06-11T09:26:26.175Z"
+              },
+              "schema_version": "1.1.3",
+              "observable": {
+                "value": "https://portal.sbn.co.th/rss.php",
+                "type": "url"
+              },
+              "type": "judgement",
+              "source": "Talos Intelligence",
+              "disposition": 2,
+              "module": "Talos Intelligence",
+              "module-type": null,
+              "reason": "Poor Talos Intelligence reputation score",
+              "source_uri": "https://www.talosintelligence.com/reputation_center/lookup?search=https%3A%2F%2Fportal.sbn.co.th%2Frss.php",
+              "disposition_name": "Malicious",
+              "priority": 90,
+              "id": "transient:b40c4502-c2f1-4c74-a858-70b2e92a6f10",
+              "severity": "High",
+              "tlp": "white",
+              "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+              "ctr_uuid": "66eb91bb-f88e-4d6b-b43b-0d772e88f5a9",
+              "confidence": "High",
+              "ctr_dispositionOrder": 1,
+              "ctr_hide": true
+            }
+          ],
+          "sightings": [
+            {
+              "suspicious": 0,
+              "description": "Category: Network activity",
+              "observed_end_time": "2015-07-01T00:00:00Z",
+              "target_count": 0,
+              "schema_version": "1.1.5",
+              "unknown": 0,
+              "observable_value": "https://portal.sbn.co.th/rss.php",
+              "observables": [
+                {
+                  "value": "https://portal.sbn.co.th/rss.php",
+                  "type": "url"
+                }
+              ],
+              "obs": "url:https://portal.sbn.co.th/rss.php",
+              "type": "sighting",
+              "source": "MISP",
+              "disposition": 2,
+              "malicious": 1,
+              "module": "MISP",
+              "internal": false,
+              "module-type": null,
+              "common": 0,
+              "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+              "disposition_name": "Malicious",
+              "id": "transient:sighting-4aff1f27-6d7f-4df9-80f2-d4699c088a80",
+              "observed_start_time": "2015-07-01T00:00:00Z",
+              "count": 1,
+              "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+              "observable_type": "url",
+              "ctr_uuid": "3f58d259-79f1-49d8-88e2-8b1911201acc",
+              "timestamp": "2016-02-23T22:34:35.000Z",
+              "confidence": "High",
+              "observed_time": {
+                "start_time": "2015-07-01T00:00:00.000Z",
+                "end_time": "2015-07-01T00:00:00.000Z"
+              },
+              "ctr_hide": false,
+              "clean": 0
+            }
+          ],
+          "revListOrder": 1
+        },
+        "notifications": [],
+        "disposition_name": "Malicious",
+        "disposition": 2,
+        "type": "url",
+        "value": "https://portal.sbn.co.th/rss.php",
+        "id": "165c2f02"
+      }
+    ],
+    "omittedObservables": [],
+    "archivedObservables": [
+      {
+        "key": "05d64427-9939-4fac-b142-358fdd5ccab0",
+        "value": "https://portal.sbn.co.th/rss.php",
+        "indicators": [
+          {
+            "tags": [
+              "tlp:white"
+            ],
+            "valid_time": {
+              "start_time": "2015-07-01T00:00:00.000Z",
+              "end_time": "2015-07-01T00:00:00.000Z"
+            },
+            "producer": "CUDESO",
+            "schema_version": "1.1.5",
+            "type": "indicator",
+            "source": "MISP",
+            "short_description": "Category: Network activity",
+            "title": "Duke Cloud Linux - F-Secure",
+            "module": "MISP",
+            "module-type": null,
+            "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+            "id": "transient:indicator-56ccde59-af1c-437c-a9f5-51269062e56a",
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "ctr_uuid": "dc647036-8df5-4884-97df-14df34b8bdfd",
+            "timestamp": "2016-02-23T22:34:35.000Z",
+            "confidence": "High",
+            "ctr_hide": false
+          }
+        ],
+        "type": "url",
+        "state": "investigated",
+        "targets": [],
+        "disposition": 2,
+        "verdicts": [
+          {
+            "valid_time": {
+              "start_time": "2021-05-12T09:26:26.000Z",
+              "end_time": "2021-05-19T09:26:26.000Z"
+            },
+            "observable": {
+              "value": "https://portal.sbn.co.th/rss.php",
+              "type": "url"
+            },
+            "type": "verdict",
+            "disposition": 4,
+            "module": "MISP",
+            "module-type": null,
+            "disposition_name": "Common",
+            "id": "verdict:MISP:165c2f02",
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "ctr_uuid": "7e955314-075f-4187-aff1-1ab95202bc7e",
+            "judgement_id": "transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f",
+            "ctr_hide": false
+          },
+          {
+            "valid_time": {
+              "start_time": "2021-05-12T09:26:26.175Z",
+              "end_time": "2021-06-11T09:26:26.175Z"
+            },
+            "observable": {
+              "value": "https://portal.sbn.co.th/rss.php",
+              "type": "url"
+            },
+            "type": "verdict",
+            "disposition": 2,
+            "module": "Talos Intelligence",
+            "module-type": null,
+            "disposition_name": "Malicious",
+            "id": "verdict:Talos Intelligence:165c2f02",
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "ctr_uuid": "ae32b88a-8a0d-40eb-b418-ddba37347289",
+            "judgement_id": "transient:b40c4502-c2f1-4c74-a858-70b2e92a6f10",
+            "ctr_hide": true
+          }
+        ],
+        "notifications": [],
+        "disposition_name": "Malicious",
+        "obsListSortOrder": 1,
+        "listOrder": 0,
+        "label": "https://portal.sbn.co.th/rss.php",
+        "id": "165c2f02",
+        "judgements": [
+          {
+            "valid_time": {
+              "start_time": "2021-05-12T09:26:26.000Z",
+              "end_time": "2021-05-19T09:26:26.000Z"
+            },
+            "schema_version": "1.1.5",
+            "observable": {
+              "value": "https://portal.sbn.co.th/rss.php",
+              "type": "url"
+            },
+            "type": "judgement",
+            "source": "MISP",
+            "disposition": 4,
+            "module": "MISP",
+            "module-type": null,
+            "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+            "disposition_name": "Common",
+            "priority": 85,
+            "id": "transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f",
+            "severity": "Medium",
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "ctr_uuid": "3abdde37-0286-4930-8885-24451a93187e",
+            "confidence": "Medium",
+            "ctr_dispositionOrder": 3,
+            "ctr_hide": false
+          },
+          {
+            "valid_time": {
+              "start_time": "2021-05-12T09:26:26.175Z",
+              "end_time": "2021-06-11T09:26:26.175Z"
+            },
+            "schema_version": "1.1.3",
+            "observable": {
+              "value": "https://portal.sbn.co.th/rss.php",
+              "type": "url"
+            },
+            "type": "judgement",
+            "source": "Talos Intelligence",
+            "disposition": 2,
+            "module": "Talos Intelligence",
+            "module-type": null,
+            "reason": "Poor Talos Intelligence reputation score",
+            "source_uri": "https://www.talosintelligence.com/reputation_center/lookup?search=https%3A%2F%2Fportal.sbn.co.th%2Frss.php",
+            "disposition_name": "Malicious",
+            "priority": 90,
+            "id": "transient:b40c4502-c2f1-4c74-a858-70b2e92a6f10",
+            "severity": "High",
+            "tlp": "white",
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "ctr_uuid": "66eb91bb-f88e-4d6b-b43b-0d772e88f5a9",
+            "confidence": "High",
+            "ctr_dispositionOrder": 1,
+            "ctr_hide": true
+          }
+        ],
+        "sightings": [
+          {
+            "suspicious": 0,
+            "description": "Category: Network activity",
+            "observed_end_time": "2015-07-01T00:00:00Z",
+            "target_count": 0,
+            "schema_version": "1.1.5",
+            "unknown": 0,
+            "observable_value": "https://portal.sbn.co.th/rss.php",
+            "observables": [
+              {
+                "value": "https://portal.sbn.co.th/rss.php",
+                "type": "url"
+              }
+            ],
+            "obs": "url:https://portal.sbn.co.th/rss.php",
+            "type": "sighting",
+            "source": "MISP",
+            "disposition": 2,
+            "malicious": 1,
+            "module": "MISP",
+            "internal": false,
+            "module-type": null,
+            "common": 0,
+            "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+            "disposition_name": "Malicious",
+            "id": "transient:sighting-4aff1f27-6d7f-4df9-80f2-d4699c088a80",
+            "observed_start_time": "2015-07-01T00:00:00Z",
+            "count": 1,
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "observable_type": "url",
+            "ctr_uuid": "3f58d259-79f1-49d8-88e2-8b1911201acc",
+            "timestamp": "2016-02-23T22:34:35.000Z",
+            "confidence": "High",
+            "observed_time": {
+              "start_time": "2015-07-01T00:00:00.000Z",
+              "end_time": "2015-07-01T00:00:00.000Z"
+            },
+            "ctr_hide": false,
+            "clean": 0
+          }
+        ],
+        "revListOrder": 1
+      }
+    ]
+  },
+  "schema_version": "1.1.3",
+  "type": "investigation",
+  "search-txt": "url:\"https://portal.sbn.co.th/rss.php\"",
+  "actions": "[{\"created-perf\":1637365000.0005,\"updated-perf\":1637370000.0003736,\"type\":\"collect\",\"created\":\"2021-05-12T09:26:25.558Z\",\"state\":\"ok\",\"arg\":\"url:\\\"https://portal.sbn.co.th/rss.php\\\"\",\"result\":[{\"value\":\"https://portal.sbn.co.th/rss.php\",\"type\":\"url\"}],\"id\":\"collect-b0a19367\",\"uuid\":\"670ea189-2bc2-47e2-bfda-4dbada25592b\"},{\"created-perf\":2873975000.0004277,\"updated-perf\":2873975000.0004277,\"type\":\"investigate\",\"created\":\"2021-05-12T09:26:26.794Z\",\"state\":\"ok\",\"arg\":{\"type\":\"url\",\"value\":\"https://portal.sbn.co.th/rss.php\"},\"result\":{\"data\":[{\"module\":\"Talos Intelligence\",\"module_instance_id\":\"f14a7465-a77a-4e28-8b97-23706a56eab5\",\"module_type_id\":\"2460c99b-2f01-523b-a65d-30a3c6603245\",\"data\":{\"verdicts\":{\"count\":1,\"docs\":[{\"type\":\"verdict\",\"disposition\":2,\"observable\":{\"value\":\"https://portal.sbn.co.th/rss.php\",\"type\":\"url\"},\"judgement_id\":\"transient:b40c4502-c2f1-4c74-a858-70b2e92a6f10\",\"disposition_name\":\"Malicious\",\"valid_time\":{\"start_time\":\"2021-05-12T09:26:26.175Z\",\"end_time\":\"2021-06-11T09:26:26.175Z\"}}]},\"judgements\":{\"count\":1,\"docs\":[{\"valid_time\":{\"start_time\":\"2021-05-12T09:26:26.175Z\",\"end_time\":\"2021-06-11T09:26:26.175Z\"},\"schema_version\":\"1.1.3\",\"observable\":{\"value\":\"https://portal.sbn.co.th/rss.php\",\"type\":\"url\"},\"type\":\"judgement\",\"source\":\"Talos Intelligence\",\"disposition\":2,\"reason\":\"Poor Talos Intelligence reputation score\",\"source_uri\":\"https://www.talosintelligence.com/reputation_center/lookup?search=https%3A%2F%2Fportal.sbn.co.th%2Frss.php\",\"disposition_name\":\"Malicious\",\"priority\":90,\"id\":\"transient:b40c4502-c2f1-4c74-a858-70b2e92a6f10\",\"severity\":\"High\",\"tlp\":\"white\",\"confidence\":\"High\"}]}}},{\"module\":\"QRadar\",\"module_instance_id\":\"7527fe44-6930-46eb-8506-8d9c2d1cd4fc\",\"module_type_id\":\"c1b64357-c493-402c-b1be-03bfd85e0f3e\",\"data\":{}},{\"module\":\"MISP\",\"module_instance_id\":\"d85fcbe3-8c2f-47ce-893e-e664db370ce6\",\"module_type_id\":\"6793ecd6-69ea-4ac8-ae5b-e0f12a5f317f\",\"data\":{\"indicators\":{\"count\":1,\"docs\":[{\"tags\":[\"tlp:white\"],\"valid_time\":{\"start_time\":\"2015-07-01T00:00:00.000Z\",\"end_time\":\"2015-07-01T00:00:00.000Z\"},\"producer\":\"CUDESO\",\"schema_version\":\"1.1.5\",\"type\":\"indicator\",\"source\":\"MISP\",\"short_description\":\"Category: Network activity\",\"title\":\"Duke Cloud Linux - F-Secure\",\"source_uri\":\"https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a\",\"id\":\"transient:indicator-56ccde59-af1c-437c-a9f5-51269062e56a\",\"timestamp\":\"2016-02-23T22:34:35.000Z\",\"confidence\":\"High\"}]},\"verdicts\":{\"count\":1,\"docs\":[{\"type\":\"verdict\",\"disposition\":4,\"observable\":{\"value\":\"https://portal.sbn.co.th/rss.php\",\"type\":\"url\"},\"judgement_id\":\"transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f\",\"disposition_name\":\"Common\",\"valid_time\":{\"start_time\":\"2021-05-12T09:26:26.000Z\",\"end_time\":\"2021-05-19T09:26:26.000Z\"}}]},\"relationships\":{\"count\":2,\"docs\":[{\"schema_version\":\"1.1.5\",\"target_ref\":\"transient:indicator-56ccde59-af1c-437c-a9f5-51269062e56a\",\"type\":\"relationship\",\"source_ref\":\"transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f\",\"id\":\"transient:relationship-3157e662-07e4-4102-b90e-4e6fd31b80da\",\"relationship_type\":\"element-of\"},{\"schema_version\":\"1.1.5\",\"target_ref\":\"transient:indicator-56ccde59-af1c-437c-a9f5-51269062e56a\",\"type\":\"relationship\",\"source_ref\":\"transient:sighting-4aff1f27-6d7f-4df9-80f2-d4699c088a80\",\"id\":\"transient:relationship-839ed4b0-181b-458d-97ac-6da501804b75\",\"relationship_type\":\"member-of\"}]},\"judgements\":{\"count\":1,\"docs\":[{\"valid_time\":{\"start_time\":\"2021-05-12T09:26:26.000Z\",\"end_time\":\"2021-05-19T09:26:26.000Z\"},\"schema_version\":\"1.1.5\",\"observable\":{\"value\":\"https://portal.sbn.co.th/rss.php\",\"type\":\"url\"},\"type\":\"judgement\",\"source\":\"MISP\",\"disposition\":4,\"source_uri\":\"https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a\",\"disposition_name\":\"Common\",\"priority\":85,\"id\":\"transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f\",\"severity\":\"Medium\",\"confidence\":\"Medium\"}]},\"sightings\":{\"count\":1,\"docs\":[{\"description\":\"Category: Network activity\",\"schema_version\":\"1.1.5\",\"observables\":[{\"value\":\"https://portal.sbn.co.th/rss.php\",\"type\":\"url\"}],\"type\":\"sighting\",\"source\":\"MISP\",\"source_uri\":\"https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a\",\"id\":\"transient:sighting-4aff1f27-6d7f-4df9-80f2-d4699c088a80\",\"count\":1,\"timestamp\":\"2016-02-23T22:34:35.000Z\",\"confidence\":\"High\",\"observed_time\":{\"start_time\":\"2015-07-01T00:00:00.000Z\",\"end_time\":\"2015-07-01T00:00:00.000Z\"}}]}}}]},\"id\":\"investigate-1b868101\",\"uuid\":\"3486a235-e8aa-4bb1-af5f-52dc71a493ef\"}]",
+  "short_description": "Snapshot-with-URL",
+  "omittedObservables": [],
+  "archivedObservables": [
+    {
+      "key": "05d64427-9939-4fac-b142-358fdd5ccab0",
+      "value": "https://portal.sbn.co.th/rss.php",
+      "indicators": [
+        {
+          "tags": [
+            "tlp:white"
+          ],
+          "valid_time": {
+            "start_time": "2015-07-01T00:00:00.000Z",
+            "end_time": "2015-07-01T00:00:00.000Z"
+          },
+          "producer": "CUDESO",
+          "schema_version": "1.1.5",
+          "type": "indicator",
+          "source": "MISP",
+          "short_description": "Category: Network activity",
+          "title": "Duke Cloud Linux - F-Secure",
+          "module": "MISP",
+          "module-type": null,
+          "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+          "id": "transient:indicator-56ccde59-af1c-437c-a9f5-51269062e56a",
+          "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+          "ctr_uuid": "dc647036-8df5-4884-97df-14df34b8bdfd",
+          "timestamp": "2016-02-23T22:34:35.000Z",
+          "confidence": "High",
+          "ctr_hide": false
+        }
+      ],
+      "type": "url",
+      "state": "investigated",
+      "targets": [],
+      "disposition": 2,
+      "verdicts": [
+        {
+          "valid_time": {
+            "start_time": "2021-05-12T09:26:26.000Z",
+            "end_time": "2021-05-19T09:26:26.000Z"
+          },
+          "observable": {
+            "value": "https://portal.sbn.co.th/rss.php",
+            "type": "url"
+          },
+          "type": "verdict",
+          "disposition": 4,
+          "module": "MISP",
+          "module-type": null,
+          "disposition_name": "Common",
+          "id": "verdict:MISP:165c2f02",
+          "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+          "ctr_uuid": "7e955314-075f-4187-aff1-1ab95202bc7e",
+          "judgement_id": "transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f",
+          "ctr_hide": false
+        },
+        {
+          "valid_time": {
+            "start_time": "2021-05-12T09:26:26.175Z",
+            "end_time": "2021-06-11T09:26:26.175Z"
+          },
+          "observable": {
+            "value": "https://portal.sbn.co.th/rss.php",
+            "type": "url"
+          },
+          "type": "verdict",
+          "disposition": 2,
+          "module": "Talos Intelligence",
+          "module-type": null,
+          "disposition_name": "Malicious",
+          "id": "verdict:Talos Intelligence:165c2f02",
+          "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+          "ctr_uuid": "ae32b88a-8a0d-40eb-b418-ddba37347289",
+          "judgement_id": "transient:b40c4502-c2f1-4c74-a858-70b2e92a6f10",
+          "ctr_hide": true
+        }
+      ],
+      "notifications": [],
+      "disposition_name": "Malicious",
+      "obsListSortOrder": 1,
+      "listOrder": 0,
+      "label": "https://portal.sbn.co.th/rss.php",
+      "id": "165c2f02",
+      "judgements": [
+        {
+          "valid_time": {
+            "start_time": "2021-05-12T09:26:26.000Z",
+            "end_time": "2021-05-19T09:26:26.000Z"
+          },
+          "schema_version": "1.1.5",
+          "observable": {
+            "value": "https://portal.sbn.co.th/rss.php",
+            "type": "url"
+          },
+          "type": "judgement",
+          "source": "MISP",
+          "disposition": 4,
+          "module": "MISP",
+          "module-type": null,
+          "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+          "disposition_name": "Common",
+          "priority": 85,
+          "id": "transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f",
+          "severity": "Medium",
+          "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+          "ctr_uuid": "3abdde37-0286-4930-8885-24451a93187e",
+          "confidence": "Medium",
+          "ctr_dispositionOrder": 3,
+          "ctr_hide": false
+        },
+        {
+          "valid_time": {
+            "start_time": "2021-05-12T09:26:26.175Z",
+            "end_time": "2021-06-11T09:26:26.175Z"
+          },
+          "schema_version": "1.1.3",
+          "observable": {
+            "value": "https://portal.sbn.co.th/rss.php",
+            "type": "url"
+          },
+          "type": "judgement",
+          "source": "Talos Intelligence",
+          "disposition": 2,
+          "module": "Talos Intelligence",
+          "module-type": null,
+          "reason": "Poor Talos Intelligence reputation score",
+          "source_uri": "https://www.talosintelligence.com/reputation_center/lookup?search=https%3A%2F%2Fportal.sbn.co.th%2Frss.php",
+          "disposition_name": "Malicious",
+          "priority": 90,
+          "id": "transient:b40c4502-c2f1-4c74-a858-70b2e92a6f10",
+          "severity": "High",
+          "tlp": "white",
+          "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+          "ctr_uuid": "66eb91bb-f88e-4d6b-b43b-0d772e88f5a9",
+          "confidence": "High",
+          "ctr_dispositionOrder": 1,
+          "ctr_hide": true
+        }
+      ],
+      "sightings": [
+        {
+          "suspicious": 0,
+          "description": "Category: Network activity",
+          "observed_end_time": "2015-07-01T00:00:00Z",
+          "target_count": 0,
+          "schema_version": "1.1.5",
+          "unknown": 0,
+          "observable_value": "https://portal.sbn.co.th/rss.php",
+          "observables": [
+            {
+              "value": "https://portal.sbn.co.th/rss.php",
+              "type": "url"
+            }
+          ],
+          "obs": "url:https://portal.sbn.co.th/rss.php",
+          "type": "sighting",
+          "source": "MISP",
+          "disposition": 2,
+          "malicious": 1,
+          "module": "MISP",
+          "internal": false,
+          "module-type": null,
+          "common": 0,
+          "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+          "disposition_name": "Malicious",
+          "id": "transient:sighting-4aff1f27-6d7f-4df9-80f2-d4699c088a80",
+          "observed_start_time": "2015-07-01T00:00:00Z",
+          "count": 1,
+          "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+          "observable_type": "url",
+          "ctr_uuid": "3f58d259-79f1-49d8-88e2-8b1911201acc",
+          "timestamp": "2016-02-23T22:34:35.000Z",
+          "confidence": "High",
+          "observed_time": {
+            "start_time": "2015-07-01T00:00:00.000Z",
+            "end_time": "2015-07-01T00:00:00.000Z"
+          },
+          "ctr_hide": false,
+          "clean": 0
+        }
+      ],
+      "revListOrder": 1
+    }
+  ],
+  "selectedObservables": [
+    {
+      "uuid": "26cd7f9d-0a17-45e7-a154-35d974a38fbc",
+      "observable": {
+        "key": "05d64427-9939-4fac-b142-358fdd5ccab0",
+        "value": "https://portal.sbn.co.th/rss.php",
+        "indicators": [
+          {
+            "tags": [
+              "tlp:white"
+            ],
+            "valid_time": {
+              "start_time": "2015-07-01T00:00:00.000Z",
+              "end_time": "2015-07-01T00:00:00.000Z"
+            },
+            "producer": "CUDESO",
+            "schema_version": "1.1.5",
+            "type": "indicator",
+            "source": "MISP",
+            "short_description": "Category: Network activity",
+            "title": "Duke Cloud Linux - F-Secure",
+            "module": "MISP",
+            "module-type": null,
+            "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+            "id": "transient:indicator-56ccde59-af1c-437c-a9f5-51269062e56a",
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "ctr_uuid": "dc647036-8df5-4884-97df-14df34b8bdfd",
+            "timestamp": "2016-02-23T22:34:35.000Z",
+            "confidence": "High",
+            "ctr_hide": false
+          }
+        ],
+        "type": "url",
+        "state": "investigated",
+        "targets": [],
+        "disposition": 2,
+        "verdicts": [
+          {
+            "valid_time": {
+              "start_time": "2021-05-12T09:26:26.000Z",
+              "end_time": "2021-05-19T09:26:26.000Z"
+            },
+            "observable": {
+              "value": "https://portal.sbn.co.th/rss.php",
+              "type": "url"
+            },
+            "type": "verdict",
+            "disposition": 4,
+            "module": "MISP",
+            "module-type": null,
+            "disposition_name": "Common",
+            "id": "verdict:MISP:165c2f02",
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "ctr_uuid": "7e955314-075f-4187-aff1-1ab95202bc7e",
+            "judgement_id": "transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f",
+            "ctr_hide": false
+          },
+          {
+            "valid_time": {
+              "start_time": "2021-05-12T09:26:26.175Z",
+              "end_time": "2021-06-11T09:26:26.175Z"
+            },
+            "observable": {
+              "value": "https://portal.sbn.co.th/rss.php",
+              "type": "url"
+            },
+            "type": "verdict",
+            "disposition": 2,
+            "module": "Talos Intelligence",
+            "module-type": null,
+            "disposition_name": "Malicious",
+            "id": "verdict:Talos Intelligence:165c2f02",
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "ctr_uuid": "ae32b88a-8a0d-40eb-b418-ddba37347289",
+            "judgement_id": "transient:b40c4502-c2f1-4c74-a858-70b2e92a6f10",
+            "ctr_hide": true
+          }
+        ],
+        "notifications": [],
+        "disposition_name": "Malicious",
+        "obsListSortOrder": 1,
+        "listOrder": 0,
+        "label": "https://portal.sbn.co.th/rss.php",
+        "id": "165c2f02",
+        "judgements": [
+          {
+            "valid_time": {
+              "start_time": "2021-05-12T09:26:26.000Z",
+              "end_time": "2021-05-19T09:26:26.000Z"
+            },
+            "schema_version": "1.1.5",
+            "observable": {
+              "value": "https://portal.sbn.co.th/rss.php",
+              "type": "url"
+            },
+            "type": "judgement",
+            "source": "MISP",
+            "disposition": 4,
+            "module": "MISP",
+            "module-type": null,
+            "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+            "disposition_name": "Common",
+            "priority": 85,
+            "id": "transient:judgement-230a3359-60a0-4c5f-a93c-9e237e54aa5f",
+            "severity": "Medium",
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "ctr_uuid": "3abdde37-0286-4930-8885-24451a93187e",
+            "confidence": "Medium",
+            "ctr_dispositionOrder": 3,
+            "ctr_hide": false
+          },
+          {
+            "valid_time": {
+              "start_time": "2021-05-12T09:26:26.175Z",
+              "end_time": "2021-06-11T09:26:26.175Z"
+            },
+            "schema_version": "1.1.3",
+            "observable": {
+              "value": "https://portal.sbn.co.th/rss.php",
+              "type": "url"
+            },
+            "type": "judgement",
+            "source": "Talos Intelligence",
+            "disposition": 2,
+            "module": "Talos Intelligence",
+            "module-type": null,
+            "reason": "Poor Talos Intelligence reputation score",
+            "source_uri": "https://www.talosintelligence.com/reputation_center/lookup?search=https%3A%2F%2Fportal.sbn.co.th%2Frss.php",
+            "disposition_name": "Malicious",
+            "priority": 90,
+            "id": "transient:b40c4502-c2f1-4c74-a858-70b2e92a6f10",
+            "severity": "High",
+            "tlp": "white",
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "ctr_uuid": "66eb91bb-f88e-4d6b-b43b-0d772e88f5a9",
+            "confidence": "High",
+            "ctr_dispositionOrder": 1,
+            "ctr_hide": true
+          }
+        ],
+        "sightings": [
+          {
+            "suspicious": 0,
+            "description": "Category: Network activity",
+            "observed_end_time": "2015-07-01T00:00:00Z",
+            "target_count": 0,
+            "schema_version": "1.1.5",
+            "unknown": 0,
+            "observable_value": "https://portal.sbn.co.th/rss.php",
+            "observables": [
+              {
+                "value": "https://portal.sbn.co.th/rss.php",
+                "type": "url"
+              }
+            ],
+            "obs": "url:https://portal.sbn.co.th/rss.php",
+            "type": "sighting",
+            "source": "MISP",
+            "disposition": 2,
+            "malicious": 1,
+            "module": "MISP",
+            "internal": false,
+            "module-type": null,
+            "common": 0,
+            "source_uri": "https://13.59.71.207/events/view/56ccde59-af1c-437c-a9f5-51269062e56a",
+            "disposition_name": "Malicious",
+            "id": "transient:sighting-4aff1f27-6d7f-4df9-80f2-d4699c088a80",
+            "observed_start_time": "2015-07-01T00:00:00Z",
+            "count": 1,
+            "action": "3486a235-e8aa-4bb1-af5f-52dc71a493ef",
+            "observable_type": "url",
+            "ctr_uuid": "3f58d259-79f1-49d8-88e2-8b1911201acc",
+            "timestamp": "2016-02-23T22:34:35.000Z",
+            "confidence": "High",
+            "observed_time": {
+              "start_time": "2015-07-01T00:00:00.000Z",
+              "end_time": "2015-07-01T00:00:00.000Z"
+            },
+            "ctr_hide": false,
+            "clean": 0
+          }
+        ],
+        "revListOrder": 1
+      },
+      "notifications": [],
+      "disposition_name": "Malicious",
+      "disposition": 2,
+      "type": "url",
+      "value": "https://portal.sbn.co.th/rss.php",
+      "id": "165c2f02"
+    }
+  ],
+  "id": "https://private.intel.amp.cisco.com:443/ctia/investigation/investigation-1a9e02bb-4375-4de0-9091-286a0537bcd1",
+  "tlp": "amber",
+  "groups": [
+    "32e22c6d-7624-477e-8bbd-989c979b552e"
+  ],
+  "timestamp": "2021-05-12T09:29:50.616Z",
+  "owner": "9d64bbce-2e7c-43f0-b9d7-0e2fa3c2d88d",
+  "source": "Anastasiia Rozlyvan"
+}
