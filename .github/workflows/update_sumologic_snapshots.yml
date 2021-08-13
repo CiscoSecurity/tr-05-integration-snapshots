@@ -3,7 +3,7 @@ name: Update SumoLogic snapshots
 on:
   workflow_dispatch:
   schedule:
-    - cron: "50 17 * * 5"
+    - cron: "20 18 * * 5"
 
 jobs:
   execute:
