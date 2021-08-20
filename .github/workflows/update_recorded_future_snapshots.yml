@@ -3,7 +3,7 @@ name: Update Recorded_Future snapshots
 on:
   workflow_dispatch:
   schedule:
-    - cron: "4 12 * * 3"
+    - cron: "4 12 * * SUN"
 
 jobs:
   execute:
