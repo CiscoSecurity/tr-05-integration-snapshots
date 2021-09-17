@@ -3,7 +3,7 @@ name: Update Exabeam snapshots
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 18 * * 5"
+    - cron: "0 17 * * 5"
 
 jobs:
   execute:
